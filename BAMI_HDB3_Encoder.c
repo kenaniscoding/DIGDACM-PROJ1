@@ -75,13 +75,13 @@ void toHDB3(char* rawInput, int inputLength) {
         finalOutput[index++] = output[i];
     }
     for (int i = 0; i < sizeof(finalOutput); i++){
-        printf("%c",finalOutput[i]);
+        fprintf(stdout,"%c",finalOutput[i]);
     }
     
 }
 
 int main() {
-    char input[256];
+    char input[512];
     for(int i = 0; i < sizeof(input); i++){
          scanf("%c",&input[i]);
     }

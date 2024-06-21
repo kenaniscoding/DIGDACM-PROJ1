@@ -76,7 +76,7 @@ void decode(char *bamiInput, int inputLength)
 
     for (int i = 0; i < sizeof(decoded); i++)
     {
-        printf("%c", decoded[i]);
+        fprintf(stdout,"%c", decoded[i]);
     }
    
 }
