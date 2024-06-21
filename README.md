@@ -19,9 +19,15 @@ Run the main program
 ```
 ### Debugging the C program
 NRZ-S Encoding
-
+```
+-+++-+---++-
+```
+output should be 101100011010
 NRZ-S Decoding
-
+```
+101100011010
+```
+output should be -+++-+---++-
 BAMI HDB3 Encoding
 
 BAMI HDB3 Decoding
