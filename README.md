@@ -47,5 +47,6 @@ output should be ++00--++0000++00--++--0000--++--++0000++0000
 output should be 1010000011000011000000
 ## Flowchart
 
-## Example
-![image](https://github.com/kenaniscoding/DIGDACM-PROJ1/assets/112913035/29311c87-671b-4fa4-a158-c95e34a9f44c)
+## Example Output
+![image](https://github.com/kenaniscoding/DIGDACM-PROJ1/assets/112913035/c7839ad9-271b-46c9-8e71-68fd85f54eb3)
+
