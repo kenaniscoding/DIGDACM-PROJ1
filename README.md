@@ -29,7 +29,7 @@ output should be 101100011010
 output should be -+++-+---++-
 ### BAMI HDB3 Encoding
 ```
-101100110011
+1010000011000011000000
 ```
 ### BAMI HDB3 Decoding
 
