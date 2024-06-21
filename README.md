@@ -17,20 +17,19 @@ Run the main program
 ```
 ./menu.sh
 ```
-### Debugging the C program
-NRZ-S Encoding
+### NRZ-S Encoding
 ```
 -+++-+---++-
 ```
 output should be 101100011010
-NRZ-S Decoding
+### NRZ-S Decoding
 ```
 101100011010
 ```
 output should be -+++-+---++-
-BAMI HDB3 Encoding
+### BAMI HDB3 Encoding
 
-BAMI HDB3 Decoding
+### BAMI HDB3 Decoding
 
 ## Flowchart
 
