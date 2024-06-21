@@ -1,4 +1,5 @@
 # NRZ-S and BAMI HDB3 Line Encoding and Decoding
+![image](https://github.com/kenaniscoding/DIGDACM-PROJ1/assets/112913035/d0fd85e2-9e91-4f33-bc91-fdfc5974052f)
 ## Description
 - Digital Communications use line coding etc
 ![image](https://github.com/kenaniscoding/DIGDACM-PROJ1/assets/112913035/701a7d73-8aaa-41e0-8d29-1df1809fb562)
