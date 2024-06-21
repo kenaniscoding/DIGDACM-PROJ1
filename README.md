@@ -2,7 +2,7 @@
 ## Description
 - Digital Communications use line coding etc
 ![image](https://github.com/kenaniscoding/DIGDACM-PROJ1/assets/112913035/701a7d73-8aaa-41e0-8d29-1df1809fb562)
-
+![image](https://upload.wikimedia.org/wikipedia/commons/6/63/AMI%2C_HDB3_%281%29.jpg)
 ## Commands 
 ### Running the program
 Go to the correct directory
