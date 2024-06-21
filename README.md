@@ -1,4 +1,4 @@
-# NRZ-S and BAMI HDB3 Line Encoding and Decoding
+# Piping NRZ-S and BAMI HDB3 Line Encoding and Decoding
 ![image](https://github.com/kenaniscoding/DIGDACM-PROJ1/assets/112913035/d0fd85e2-9e91-4f33-bc91-fdfc5974052f)
 ## Description
 - Digital Communications has different parts in the encoding and decoding of data
