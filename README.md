@@ -60,5 +60,6 @@ output should be 1010000011000011000000
 ## Flowchart
 
 ## Example Output
-![image](https://github.com/kenaniscoding/DIGDACM-PROJ1/assets/112913035/c7839ad9-271b-46c9-8e71-68fd85f54eb3)
+![image](https://github.com/user-attachments/assets/bebc8a4b-40e1-4007-87ae-eeaba19bee49)
+
 
