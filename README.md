@@ -21,6 +21,18 @@ Make the shell script program executable
 ```
 chmod +x menu.sh
 ```
+```
+gcc linecoding_nrzs_encoding.c -o linecoding_nrzs_encoding
+```
+```
+gcc linecoding_nrzs_decoding.c -o linecoding_nrzs_decoding
+```
+```
+gcc BAMI_HDB3_Encoder.c -o BAMI_HDB3_Encoder
+```
+```
+gcc BAMI_HDB3_Decoder.c -o BAMI_HDB3_Decoder
+```
 Run the main program
 ```
 ./menu.sh
