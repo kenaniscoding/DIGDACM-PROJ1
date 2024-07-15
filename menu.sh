@@ -16,7 +16,7 @@ run_program() {
 }
 run_with_piping() {
     read -p "Pipe in => " user_input
-    echo "$user_input" | ./nrzs_decoding | ./nrzs_encoding
+    echo "$user_input" | ./linecoding_nrzs_decoding | ./linecoding_nrzs_encoding
 }
 # Display the menu
 while true; do
@@ -30,28 +30,28 @@ while true; do
 
     case $choice in
         1)
-            echo "Input binary (0 and 1) values: "
-            run_program "nrzs_decoding"
+            echo "Input high (+) and low (-) values: "
+            run_program "linecoding_nrzs_decoding"
             echo
             read -n 1 -p "Do you want to connect from decoding to encoding? (y or n): " response1
             echo
             if [ "$response1" = "y" ]; then
                 read -p "Pipe in => " user_input1
-                echo "$user_input1" | ./nrzs_decoding | ./nrzs_encoding
+                echo "$user_input1" | ./linecoding_nrzs_decoding | ./linecoding_nrzs_encoding
             else
                 echo "Not piping."
             fi
             echo
             ;;
         2)
-            echo "Input high (+) and low (-) values: "
-            run_program "nrzs_encoding"
+            echo "Input binary (0 and 1) values: "
+            run_program "linecoding_nrzs_encoding"
             echo
             read -n 1 -p  "Do you want to connect it to the from encoding to decoding? (y or n): " response2
             echo
             if [ "$response2" = "y" ]; then
                 read -p "Pipe in => " user_input2
-                echo "$user_input2"|./nrzs_encoding|./nrzs_decoding
+                echo "$user_input2"|./linecoding_nrzs_encoding|./linecoding_nrzs_decoding
             else
                 echo "Not piping."
             fi
@@ -74,6 +74,7 @@ while true; do
         4)
             echo "Input positive (+), negative (-), and null (0) values"
             run_program "BAMI_HDB3_Decoder"
+            echo
             read -n 1 -p "Do you want to connect it to the from decoding to encoding? (y or n): " response4
             echo
             if [ "$response4" = "y" ]; then
