@@ -37,12 +37,12 @@ Run the main program
 ```
 ./menu.sh
 ```
-### NRZ-S Encoding
+### NRZ-S Decoding
 ```
 -+++-+---++-
 ```
 output should be 101100011010
-### NRZ-S Decoding
+### NRZ-S Encoding
 ```
 101100011010
 ```
